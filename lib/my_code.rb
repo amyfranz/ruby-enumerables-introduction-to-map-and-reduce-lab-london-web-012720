@@ -54,15 +54,15 @@ def reduce_to_all_true(random_array)
   return result
 end
 
-def reduce_to_any_true(random_array)
-  i = 0 
-  result = false 
-  while i < random_array.length do 
-    if random_array[i] == true 
-      result = true
-    end
-    i += 1 
-  end
-  return result
-end
+# def reduce_to_any_true(random_array)
+#   i = 0 
+#   result = false 
+#   while i < random_array.length do 
+#     if random_array[i] == true 
+#       result = true
+#     end
+#     i += 1 
+#   end
+#   return result
+# end
 end
