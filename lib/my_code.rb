@@ -31,18 +31,9 @@ def map_to_square(num_array)
   return num_array
 end
 
-def reduce_to_total(num_array){starting_point}
+def reduce_to_total(num_array, starting_point = 0)
   i = 0
-  total = 0
-  puts "yes"
-  puts total
-  if starting_point != nil
-    total = starting_point
-    puts "cool"
-    puts total
-  end
-  puts "ok"
-  puts total
+  total = starting_point
   while i < num_array.length do
     total += num_array[i]
     num_array[i] = total
