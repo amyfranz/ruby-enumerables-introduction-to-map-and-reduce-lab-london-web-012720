@@ -42,7 +42,7 @@ def reduce_to_total(num_array, starting_point = 0)
   return total
 end
 
-def reduce_to_all_true(random_array)
+def reduce_to_all_true(source_array)
   # i = 0 
   # # result = true 
   # # while i < random_array.length do 
