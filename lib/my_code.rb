@@ -43,15 +43,15 @@ def reduce_to_total(num_array, starting_point = 0)
 end
 
 def reduce_to_all_true(random_array)
-  i = 0 
-  # result = true 
-  # while i < random_array.length do 
-  #   if random_array[i] == false 
-  #     result = false
-  #   end
-  #   i += 1 
-  # end
-  return result
+  # i = 0 
+  # # result = true 
+  # # while i < random_array.length do 
+  # #   if random_array[i] == false 
+  # #     result = false
+  # #   end
+  # #   i += 1 
+  # # end
+  # return result
 end
 
 # def reduce_to_any_true(random_array)
